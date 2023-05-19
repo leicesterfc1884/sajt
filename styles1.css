@@ -1,0 +1,171 @@
+/* Opšti stilovi */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Zaglavlje */
+
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo img {
+  width: 15%;
+  height: auto;
+}
+
+.site-title {
+  margin-left: 550px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Stranica Trofeji */
+
+.trofeji-section {
+  background-image: url("background-image.jpg");
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.trofeji-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.trofej img {
+  width: 200px; /* Prilagodite dimenzije prema potrebama */
+  height: 200px; /* Prilagodite dimenzije prema potrebama */
+}
+
+.trofej {
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+}
+
+.trofej {
+  text-align: center;
+  margin: 10px;
+}
+
+.trofej h3, .trofej p {
+  margin: 5px 0;
+}
+
+
+.trofeji-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.opcije {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* Footer */
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.location {
+  color: white;
+  margin-top: 10px;
+}
+
+/* Ostali stilovi */
+
+h1 {
+  text-align: center;
+}
+
+#leicesterText {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+button {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 3px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+button:active {
+  background-color: #c62828;
+}
+

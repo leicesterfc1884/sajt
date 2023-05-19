@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sr">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<head>
+  <script src="scrypts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles1.css">
+  <title>Trofeji</title>
+</head>
+
+<body>
+  <header class="header">
+  <div class="header-content">
+    <div class="logo">
+      <img src="logo.png" alt="Leicester City logo">
+    </div>
+    <div class="site-title">LEICESTER CITY</div>
+  </div>
+  <div class="nav-links">
+    <a href="index.html">POCETNA</a>
+    <a href="trofeji.html">TROFEJI</a>
+  </div>
+</header>
+
+  <div class="trofeji-section" style="background-image: url('pozadina4.jpg'); height: 800px;">
+    <div class="trofeji-content">
+      <p></p>
+    </div>
+    <div class="trofeji-images">
+      <!-- Slike trofeja i informacije o broju osvojenih trofeja -->
+    </div>
+  </div>
+
+<p style="margin-bottom: 60px;"></p>
+
+  <div class="trofeji-section">
+  <div class="trofej">
+    <img src="premierleague.png" alt="Naziv trofeja 1">
+    <h3>Premier League</h3>
+    <p>Osvojeno 1 put</p>
+  </div>
+  <div class="trofej">
+    <img src="championship.png" alt="Naziv trofeja 2">
+    <h3>Championship</h3>
+    <p>Osvojeno 2 puta</p>
+  </div>
+  <div class="trofej">
+    <img src="leagueonee.png" alt="Naziv trofeja 3">
+    <h3>League One</h3>
+    <p>Osvojeno 1 put</p>
+  </div>
+  <div class="trofej">
+    <img src="leaguetwoo.png" alt="Naziv trofeja 4">
+    <h3>League Two</h3>
+    <p>Osvojeno 1 put</p>
+  </div>
+</div>
+
+<style>
+  .opcije {
+    background-image: url("bckg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff
+  }
+</style>
+
+<div class="opcije">
+<p style="margin-bottom: px;"></p>
+<h1>Odaberite opciju kako bi saznali kada je Leicester City osvojio ligu:</h1>
+<input type="checkbox" name="ligaCheckbox" id="premierLigaCheckbox" value="premierLiga" onclick="onCheckboxClick(event)">
+<label for="premierLigaCheckbox">Premier Liga</label>
+<input type="checkbox" name="ligaCheckbox" id="ligaOneCheckbox" value="ligaOne" onclick="onCheckboxClick(event)">
+<label for="ligaOneCheckbox">League One</label>
+<button onclick="prikaziPoruku()">Prikaži poruku</button>
+<p id="poruka"></p>
+</div>
+
+<p style="margin-bottom: 150px;"></p>
+<div class="trofeji-section" style="background-color: yellow; height: 350px">
+  <img id="slika" src="slika1.png" alt="Slika 1" onclick="promeniSliku()" style="display: block; margin: 0 auto; width: 300px; height: 350px;">
+  <p style="display: block; text-align: center; color: white;">Domaci dres</p>
+</div>
+
+<p style="margin-bottom: 60px;"></p>
+
+<style>
+  .opcije1 {
+    background-image: url("bckg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    border-radius: 15px;
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff
+  }
+</style>
+
+<div class="opcije1"> 
+<h1>Unesite ispravan naziv kluba</h1>
+  <input type="text" id="unosTeksta">
+  <button onclick="ispisiPoruku()">Prikaži poruku</button>
+  <p id="poruka1"></p>
+</div>
+<p style="margin-bottom: 60px;"></p>
+
+  <p id="leicesterText">LEICESTER CITY</p>
+
+  <button onclick="promeniBoju()">Promeni boju</button>
+  <button onclick="promeniVelicinu()">Promeni veličinu slova</button>
+
+  <p style="margin-bottom: 60px;"></p>
+
+  <footer class="footer">
+  <div class="footer-content">
+    <img src="logo.png" alt="Leicester City Logo" class="footer-logo">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/lcfc"><img src="facebook.png" alt="Prva društvena mreža"></a>
+      <a href="https://www.instagram.com/lcfc/"><img src="instagram.png" alt="Druga društvena mreža"></a>
+      <a href="https://twitter.com/LCFC"><img src="twitter.png" alt="Treća društvena mreža"></a>
+    </div>
+    <div class="location">
+      Adresa kluba: Filbert Wy, Leicester LE2 7FL, United Kingdom
+    </div>
+  </div>
+</footer>
+
+  <footer class="footer">
+    <div class="footer

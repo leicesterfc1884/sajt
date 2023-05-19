@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo img {
+  width: 15%;
+  height: auto;
+}
+
+.site-title {
+  margin-left: 550px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url("leicesterpocetna.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  position: relative;
+
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: blur(1px); /* Promenite vrednost na 10px za 10% blur */
+  z-index: -1;
+}
+
+.site-title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2, p {
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.club-info {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.sponsor-section {
+  padding: 20px;
+}
+
+.sponsor-section {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor {
+  margin: 20px;
+  width: 100px; /* Postavite željenu širinu slika */
+  height: auto; /* Omogućite automatsko prilagođavanje visine */
+}
+
+.sponsor img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+
+.footer {
+  
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.location {
+  color: white;
+  margin-top: 10px;
+}
+
